@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="C05b.Models.Instrument">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Instruments\Instrument.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Spec" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="C05b.Models.Inventory">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgBAAAAAAACAAAAAgAgAAA=</HashCode>
+      <FileName>Models\Inventory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="inventory" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="C05b.Models.InstrumentSpec">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Specs\InstrumentSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="C05b.Enums.GuitarType" Collapsed="true">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\GuitarEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="C05b.Enums.Builder" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAgAAAABAAAAAAAACQAAAAEIAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Models\Enums\GuitarEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="C05b.Enums.Wood" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABABAAAAAQAAAACAAAAIAEAACAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\GuitarEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="C05b.Enums.NumStrings" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Models\Enums\GuitarEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="C05b.Enums.Style" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAA=</HashCode>
+      <FileName>Models\Enums\MandolinEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

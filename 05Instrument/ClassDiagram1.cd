@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="C05a.Models.Guitar">
+    <Position X="4.25" Y="10.5" Width="1.5" />
+    <InheritanceLine Type="C05a.Models.Instrument" FixedFromPoint="true">
+      <Path>
+        <Point X="6.562" Y="9.747" />
+        <Point X="6.562" Y="10.125" />
+        <Point X="5" Y="10.125" />
+        <Point X="5" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Guitar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C05a.Models.GuitarSpec">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <InheritanceLine Type="C05a.Models.InstrumentSpec" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="5.625" />
+        <Point X="5.375" Y="5.625" />
+        <Point X="5.375" Y="5.562" />
+        <Point X="5" Y="5.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Models\GuitarSpec.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NumStrings" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="C05a.Models.Inventory">
+    <Position X="1.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgBAAAAAAACAAAAAgAgAAA=</HashCode>
+      <FileName>Models\Inventory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="inventory" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="C05a.Models.Instrument">
+    <Position X="6" Y="8" Width="1.5" />
+    <AssociationLine Name="Spec" Type="C05a.Models.InstrumentSpec">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.268" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Instrument.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Spec" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="C05a.Models.InstrumentSpec">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <AssociationLine Name="TopWood" Type="C05a.Enums.Wood">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.096" Y="0.162" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Type" Type="C05a.Enums.GuitarType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.188" Y="4.75" />
+        <Point X="6.188" Y="3.051" />
+        <Point X="4.25" Y="3.051" />
+        <Point X="4.25" Y="2.062" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Builder" Type="C05a.Enums.Builder" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.125" Y="4.75" />
+        <Point X="7.125" Y="3.135" />
+        <Point X="9.25" Y="3.135" />
+        <Point X="9.25" Y="2.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAgAAAAABAAAIQAAAAgAAAA=</HashCode>
+      <FileName>Models\InstrumentSpec.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BackWood" />
+      <Property Name="TopWood" />
+      <Property Name="Type" />
+      <Property Name="Builder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="C05a.Models.Mandolin">
+    <Position X="8.5" Y="10.5" Width="1.5" />
+    <InheritanceLine Type="C05a.Models.Instrument" FixedFromPoint="true">
+      <Path>
+        <Point X="7.25" Y="9.747" />
+        <Point X="7.25" Y="10.125" />
+        <Point X="9.25" Y="10.125" />
+        <Point X="9.25" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Mandolin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C05a.Models.MandolinSpec">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="C05a.Models.InstrumentSpec" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="5.464" />
+        <Point X="7.75" Y="5.464" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>MandolinSpec.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Style" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="C05a.Enums.Wood" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABABAAAAAQAAAACAAAAIAEAACAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\GuitarEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="C05a.Enums.Builder" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAgAAAABAAAAAAAACQAAAAEIAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Models\Enums\GuitarEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="C05a.Enums.NumStrings" Collapsed="true">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Models\Enums\GuitarEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="C05a.Enums.GuitarType" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\GuitarEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="C05a.Enums.Style" Collapsed="true">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAA=</HashCode>
+      <FileName>Models\Enums\MandolinEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

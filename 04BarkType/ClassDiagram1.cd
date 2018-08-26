@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="C04BarkType.Models.Bark">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAMAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C04BarkType.Models.BarkRecognizer">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAgAABAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Models\BarkRecognizer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="door" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="allowedBarks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="C04BarkType.Models.DogDoor">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAACCAAAA=</HashCode>
+      <FileName>Models\DogDoor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C04BarkType.Models.Remote">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Remote.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="door" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
