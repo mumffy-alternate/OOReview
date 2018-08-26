@@ -53,7 +53,7 @@
     <Compile Include="C04BarkTypeTests.cs" />
     <Compile Include="C03BarkRecognizerTests.cs" />
     <Compile Include="C02DoggyDoorTests.cs" />
-    <Compile Include="C05aInventoryTests - Copy.cs" />
+    <Compile Include="C05aInventoryTests.cs" />
     <Compile Include="C05bInventoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
